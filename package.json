@@ -1,0 +1,31 @@
+{
+	"name": "parse-json-stream",
+	"version": "2.2.1",
+	"description": "Stream JSON parser",
+	"main": "src/index.js",
+	"scripts": {
+		"prepublishOnly": "git checkout main && git pull --rebase && npm test && git push && git push --tags",
+		"test": "eslint --fix . && node ./src/test.js"
+	},
+	"author": "Diogo Eichert",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/diogoeichert/parse-json-stream.git"
+	},
+	"keywords": [
+		"json",
+		"parse",
+		"stream"
+	],
+	"bugs": {
+		"url": "https://github.com/diogoeichert/parse-json-stream/issues"
+	},
+	"funding": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=parse-json-stream&currency_code=EUR",
+	"homepage": "https://github.com/diogoeichert/parse-json-stream#readme",
+	"devDependencies": {
+		"eslint": "^7.19.0",
+		"eslint-config-classic": "^0.1.1",
+		"eslint-config-standard-js": "^1.5.1"
+	}
+}
