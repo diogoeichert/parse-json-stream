@@ -1,6 +1,6 @@
 {
 	"name": "parse-json-stream",
-	"version": "2.2.2",
+	"version": "2.2.3",
 	"description": "Stream JSON parser",
 	"main": "index.js",
 	"scripts": {
@@ -21,7 +21,9 @@
 	"bugs": {
 		"url": "https://github.com/diogoeichert/parse-json-stream/issues"
 	},
-	"funding": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=parse-json-stream&currency_code=EUR",
+	"funding": {
+		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=parse-json-stream&currency_code=EUR"
+	},
 	"homepage": "https://github.com/diogoeichert/parse-json-stream#readme",
 	"devDependencies": {
 		"eslint": "^7.19.0",
