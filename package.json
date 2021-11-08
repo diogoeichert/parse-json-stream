@@ -26,7 +26,7 @@
 	},
 	"homepage": "https://github.com/diogoeichert/parse-json-stream#readme",
 	"devDependencies": {
-		"eslint": "^7.19.0",
+		"eslint": "^8.2.0",
 		"eslint-config-classic": "^0.1.1",
 		"eslint-config-standard-js": "^1.5.1"
 	}
