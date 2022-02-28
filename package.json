@@ -1,6 +1,6 @@
 {
 	"name": "parse-json-stream",
-	"version": "2.3.0",
+	"version": "2.4.0",
 	"description": "Stream JSON parser",
 	"main": "index.js",
 	"scripts": {
