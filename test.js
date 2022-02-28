@@ -41,7 +41,7 @@ const tests = {
 		let done = false;
 		const errors = [];
 		const objects = [];
-		
+
 		let parser = new Parser((error, object) => {
 			if (error) {
 				errors.push(error.message);
@@ -51,7 +51,7 @@ const tests = {
 				done = true;
 			}
 		});
-		
+
 		parser.parse(data);
 		assert.equal(errors.length, 0);
 		assert.equal(objects.length, 3);
@@ -63,7 +63,7 @@ const tests = {
 			let done = false;
 			const errors = [];
 			const objects = [];
-			
+
 			let parser = new Parser((error, object) => {
 				if (error) {
 					errors.push(error.message);
@@ -73,9 +73,9 @@ const tests = {
 					done = true;
 				}
 			});
-			
+
 			let cursor = 0;
-			
+
 			while (cursor < data.length) {
 				let size = Math.ceil((data.length - cursor) * Math.random());
 
@@ -92,7 +92,7 @@ const tests = {
 				parser.parse(chunk);
 				cursor += size;
 			}
-			
+
 			assert.equal(errors.length, 0);
 			assert.equal(objects.length, 3);
 			assert.equal(done, true);
